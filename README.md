@@ -17,62 +17,7 @@ This project focuses on cleaning and visualizing Airbnb dataset information sour
 8. [Key Findings](#key-findings)
 9. [Contact Information](#contact-information)
 
-## Data Sources
 
-The dataset used in this project is sourced from [Airbnb open Data](https://www.kaggle.com/datasets/itsrohitkumarshaw/airbnb-open-data). It includes:
-
-Listings information
-
-- Host details
-
-- Availability and pricing
-
-- Reviews and ratings
-
-The dataset was cleaned to handle missing values, outliers, and inconsistencies.
-
-## Project Structure
-
-airbnb-data-analysis/
-```
-├── Airbnb_Open_Data.zip            
-├── cleaned_Airbnb_dataset.xlsx       
-├── Data cleaning and Visualization in python.zip   
-├── Graphs.zip               
-└── README.md                    
-```
-
-## Installation and Setup
-To run this project locally, follow these steps:
-
-1. **Clone the Repository**:
-``` bash
-Copy code
-
-git clone https://github.com/your-username/airbnb-data-analysis.git
-cd airbnb-data-analysis
-```
-2. **Create and Activate a Virtual Environment (optional but recommended)**:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-3. **Install the Required Packages**:
-```bash
-Copy code
-pip install pandas NumPy matplotlib seaborn folium geopandas jupyter
-```
-4. **Launch Jupyter Notebook**:
-```bash
-jupyter notebook
-```
-5. **Open the Notebook**:
-Navigate to the folder containing the Python scripts and open the relevant notebooks for cleaning or visualization.
-
-Usage
-The project includes Python scripts and notebooks for:
-
-Data Cleaning: Handling null values, duplicates, and outliers.
 
 ## Visualization:
 Answering key business questions through graphs and charts.                                 
@@ -144,6 +89,63 @@ Hosts with verified profiles have a larger share of the listings.
 - Review Dynamics:
 
 Reviews over time reveal seasonal peaks, aligning with high availability periods.
+
+## Installation and Setup
+To run this project locally, follow these steps:
+
+1. **Clone the Repository**:
+``` bash
+Copy code
+
+git clone https://github.com/your-username/airbnb-data-analysis.git
+cd airbnb-data-analysis
+```
+2. **Create and Activate a Virtual Environment (optional but recommended)**:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+3. **Install the Required Packages**:
+```bash
+Copy code
+pip install pandas NumPy matplotlib seaborn folium geopandas jupyter
+```
+4. **Launch Jupyter Notebook**:
+```bash
+jupyter notebook
+```
+5. **Open the Notebook**:
+Navigate to the folder containing the Python scripts and open the relevant notebooks for cleaning or visualization.
+
+Usage
+The project includes Python scripts and notebooks for:
+
+Data Cleaning: Handling null values, duplicates, and outliers.
+
+## Data Sources
+
+The dataset used in this project is sourced from [Airbnb open Data](https://www.kaggle.com/datasets/itsrohitkumarshaw/airbnb-open-data). It includes:
+
+Listings information
+
+- Host details
+
+- Availability and pricing
+
+- Reviews and ratings
+
+The dataset was cleaned to handle missing values, outliers, and inconsistencies.
+
+## Project Structure
+
+airbnb-data-analysis/
+```
+├── Airbnb_Open_Data.zip            
+├── cleaned_Airbnb_dataset.xlsx       
+├── Data cleaning and Visualization in python.zip   
+├── Graphs.zip               
+└── README.md                    
+```
 
 ## Contact Information
 For any questions or inquiries, please contact: 📧[samgetachew2022@gmail.com](samgetachew2022@gmail.com)
