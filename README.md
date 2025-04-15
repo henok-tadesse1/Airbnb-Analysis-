@@ -5,7 +5,8 @@
 This project focuses on cleaning and visualizing Airbnb dataset information sourced from Kaggle. The dataset includes details such as location, pricing, reviews, availability, and host information. The primary goal is to prepare the data for insightful analysis by addressing null values, outliers, and redundant information, and creating meaningful visualizations to answer key business questions. The project also demonstrates how the cleaned data and visualizations can be leveraged for business insights.
 
 
-https://drive.google.com/file/d/1Qk9cwhTxr6GHo3tuzHEuixRClM0VBgiC/view?usp=drive_link
+![My Image](https://drive.google.com/uc?export=view&id=1Qk9cwhTxr6GHo3tuzHEuixRClM0VBgiC)
+
 
 
 ## Visualization:
