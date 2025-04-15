@@ -4,19 +4,17 @@
 
 This project focuses on cleaning and visualizing Airbnb dataset information sourced from Kaggle. The dataset includes details such as location, pricing, reviews, availability, and host information. The primary goal is to prepare the data for insightful analysis by addressing null values, outliers, and redundant information, and creating meaningful visualizations to answer key business questions. The project also demonstrates how the cleaned data and visualizations can be leveraged for business insights.
 
-## Table of Contents
 
-
-1. [Description](#description)
-2. [Data Sources](#data-sources)
-3. [Project Structure](#project-structure)
-4. [Installation and Setup](#installation-and-setup)
-5. [Usage](#usage)
-6. [Analysis and Visualisations](#analysis-and-visualisations)
-7. [Business Use Cases](#business-use-cases)
-8. [Key Findings](#key-findings)
-9. [Contact Information](#contact-information)
-
+Segment | Recommended Quote ($) | Rationale
+Manhattan - Entire Home | $225 | Premium zone; high demand & review activity
+Brooklyn - Entire Home | $185 | Strong demand, slightly under Manhattan; good margin space
+Queens - Entire Home | $155 | Balanced supply/demand; set above avg for margin gain
+Bronx - Entire Home | $120 | Undervalued; test higher price with weekend boosts
+Staten Island - Entire Home | $105 | Seasonal pricing recommended; room for margin with longer stays
+Manhattan - Private Room | $110 | High turnover, high volume zone
+Brooklyn - Private Room | $90 | Competitive edge with solid review velocity
+Bronx/Staten Island - Private | $70 | Base rate, upsell on services or longer nights
+Shared Rooms (All locations) | $60 | Cap for budget-conscious travelers; high volume expected
 
 
 ## Visualization:
